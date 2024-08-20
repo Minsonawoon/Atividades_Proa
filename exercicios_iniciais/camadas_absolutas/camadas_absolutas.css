@@ -1,0 +1,53 @@
+body{
+    background-image: url("images/fundo1.jpg");
+    background-size: cover;
+}
+
+#camada1{
+    position: absolute; /*quando queremos uma camada sobreposta*/
+    top: 100px;
+    left: 100px;
+    width: 170px;
+    height: 100px;
+    border: 5px solid #f00;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    background-color: aliceblue;
+    z-index: 1;
+}
+
+#camada2{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    background-color: chartreuse;
+    border: 3px dashed #060;
+    text-align: center;
+    width: 170px;
+    height: 100px;
+    font-size: 12px;
+    padding: 10px;
+    z-index: 2;
+}
+
+#camada3{
+    position: absolute;
+    top: 200px;
+    left:200px;
+    background-color: rgb(255, 255, 255);
+    border: 3px dashed rgb(255, 2, 234);
+    text-align: right;
+    width: 170px;
+    height: 100px;
+    font-size: 20px;
+    padding: 10px;
+    z-index: 3;
+}
+
+#camada4{
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    z-index: 4;
+}

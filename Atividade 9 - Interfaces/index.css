@@ -1,0 +1,203 @@
+*{
+    padding: 0px;
+    margin:0px;
+    border:0px;
+}
+
+main{
+    position: relative;
+    width: 100%;
+    height: 800px;
+    margin: auto;
+    background-color: #c5dbf2;
+}
+
+#menu_acima{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height:auto;
+}
+
+a{
+    position: relative;
+    color: black;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-inline: 30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+}
+
+#logo{
+    position: relative;
+    margin-top: -10px;
+    margin-inline: 50px;
+    float: left;
+}
+
+#pesquisa_carrinho{
+    position: relative;
+    margin-top: -5px;
+    margin-inline: 50px;
+    display: flex;
+    float: left;
+}
+
+#conectar{
+    position: relative;
+    border: 1px solid black;
+    padding: 12px;
+    margin-top: -10px;
+    margin-left: -100px;
+    text-align: center;
+    float: left;
+    padding-inline: 20px;
+}
+
+#cadastrar{
+    position: relative;
+    background-color: #007b83;
+    color: white;
+    font-weight: 600;
+    margin-top: -10px;
+    padding: 12px;
+    margin-left: -35px;
+    float: left;
+}
+
+.conteudo{
+    position: relative;
+    background-color: #c5dbf2;
+    margin-left: 12%;
+    width: 49%;
+    margin-top: 10%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    color: #858585;
+}
+
+#texto_grande{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    width: 70%;
+    height: auto;
+    padding: 20px;
+    color: rgb(71, 71, 71);
+}
+
+#descricao{
+    font-family: Arial,sans-serif;
+    text-align: left;
+    font-size: 30px;
+    font-size: 25px;
+    width: 73%;
+    height: auto;
+    padding-left: 20px;
+}
+
+#saiba_mais{
+    background-color: #007b83;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 30px 20px 30px;
+    margin-top: 30px;
+    width: max-content;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+#big_mood{
+    background-color: #f6d5c4;
+    border: 1px solid rgba(0, 0, 0, 0.87); 
+    border-radius: 10px;
+    width:29%;
+    height:35%;
+    position: absolute;
+    margin-left: 52%;
+    margin-top: 13%;
+}
+
+#superior{
+    position: relative;
+    width: 100%;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    float: left;
+}
+
+#mais{
+    position: relative;
+    float: left;
+    margin: 5px;
+}
+
+h4{
+    color: #e27964;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+#carrinho{
+    margin-top: -35px;
+    margin-right: 5px;
+    float:right;
+}
+
+#produto_principal{
+    margin: 35px;
+}
+
+#shopping{
+    position: absolute;
+    z-index: 1;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.87); 
+    border-radius: 10px;
+    margin-left: 70%;
+    margin-top: 20%;
+    width: auto;
+    box-shadow: 7px 7px black;
+}
+
+#parte_superior{
+    border-bottom: 1px solid black;
+    font-size: 15px;
+    background-color: #eeeeec;
+    width: auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 6px 0px 6px 10px;
+}
+
+#shopping img{
+    padding: 10px;
+}
+
+#checkout{
+    position: relative;
+    color: white;
+    background-color: #007b83;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 6px;
+    padding: 3px 5px 3px 5px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    width: 60%;
+    margin-top:10px;
+    margin-bottom: 15px;
+    margin-inline: 17%;
+}
+
+
+
+

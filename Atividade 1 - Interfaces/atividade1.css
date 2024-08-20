@@ -1,0 +1,76 @@
+#fundo{
+    position: relative;
+    width: 1860px;
+    height: auto;
+    margin: auto;
+}
+
+#topo{
+    position: relative;
+    background-color:rgb(13, 158, 146);
+    text-align: center;
+    width:1860px;
+    height: 130px;
+    font-size: 50px;
+    padding-top: 40px;
+}
+
+#le{
+    position: relative;
+    background-color: #95a8bd;
+    width: 150px;
+    height: 700px;
+    font-size: 20px;
+    float: left;
+}
+
+#conteudo{
+    position: relative;
+    background-color: #a3a1a1;
+    width: 1400px;
+    height: 700px;
+    font-size: 20px;
+    float: left;
+}
+
+#le1{
+    position: relative;
+    background-color: #95a8bd;
+    width: 310px;
+    height: 700px;
+    font-size: 20px;
+    float: left;
+}
+
+#branco{
+    position: relative;
+    background-color: white;
+    width: 290px;
+    height: 200px;
+    margin-left: 10px;
+}
+
+#branco1{
+    position: relative;
+    background-color: white;
+    width: 290px;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#rodape{
+    position: relative;
+    background-color: #00c3ff;
+    height: 50px;
+    width: 1860px;
+    float: left;
+    font-size: 20px;
+}
+
+#camera{
+    position: absolute;
+    z-index: 2;
+    margin-top: 550px;
+    margin-left: 1400px;
+}
