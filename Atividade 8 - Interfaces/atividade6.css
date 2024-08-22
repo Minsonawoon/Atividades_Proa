@@ -163,12 +163,15 @@ iframe{
     display: flex;
     background-color: rgb(255, 255, 255);
     width: 99%;
-    height: 350px;
+    height: 470px;
     border-bottom: palevioletred solid 20px;
+    border-right: palevioletred solid 17px;
 }
 
 form{
-    background-color: blue;
+    position: relative;
+    display: flex;
+    flex-direction: row;
     width: 25%;
     float: left;
     padding: 20px;
@@ -193,14 +196,19 @@ textarea{
     border-radius: 5px;
 }
 
-input{
-    
+#enviar{
+    background-color: rgb(190, 191, 192);
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 550px;
 }
 
 #redes_sociais{
-    background-color: aqua;
     position: relative;
+    display:block;
     width: 30%;
+    margin-left: 600px;
 }
 
 #redes_sociais p{
@@ -350,21 +358,51 @@ footer{
     }
 
     #section4{
+        width: 100%;
+        height: auto;
         display: flex;
-        width: 95%;
+        flex-wrap: wrap;
+        border: 0px;;
+    }
+
+    .input, #enviar{
+        width: 350px;
+    }
+
+    textarea{
+        width: 370px;
+    }
+
+    #enviar{
+        width: 370px;
+    }
+
+    form{
+        display:flex;
+        width: 50%;
     }
 
     #redes_sociais{
-        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        width: 400px;
+        height: 300px;
+        margin: 0;
         justify-content: center;
+    }
+
+    #redes_sociais img{
+        width: 70px;
+        margin-top: -50px;
     }
 
     #redes_sociais p{
         text-align: center;
     }
 
-    #footer{
+    footer{
         justify-content: center;
+        border-top: palevioletred solid 10px;
     }
 }
 
