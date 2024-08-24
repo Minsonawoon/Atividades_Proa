@@ -6,6 +6,20 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+}
+
+header, .lista_categoria{
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: white;
 }
 
 .navegacao .imagem_youtube{
@@ -26,9 +40,11 @@
 
 .navegacao {
     display: flex;
+    gap: 2rem;
     align-items: center;
     justify-content: space-between;
-    padding: 0.1rem 1rem;
+    padding: 0 1rem;
+    height: 10vh;
 }
 
 .navegacao .imagem_usuario{
@@ -102,6 +118,70 @@
     height: 40px;
 }
 
+main{
+    display: flex;
+    overflow-y: auto;
+}
+
+main .barra_lateral{
+    width: 280px;
+    padding: 0 0.7rem 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.barra_lateral .sessao_lateral{
+    overflow-y: auto;
+    padding: 1rem 0 2rem;
+    height: 100vh;
+    scrollbar-color: transparent transparent;
+}
+
+.barra_lateral .sessao_lateral:hover{
+    scrollbar-color: #a6a6a6 transparent;
+}
+
+.barra_lateral .links_laterais .link{
+    display: flex;
+    align-items: center;
+    font-size: 0.938rem;
+    white-space: nowrap;
+    padding: 0.37rem 0.75rem;
+    margin-bottom: 0.25rem;
+    color: black;
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+
+.barra_lateral .links_laterais .link:hover{
+    background: #d4d4d4;
+}
+
+.barra_lateral .links_laterais .link #simbolo_lateral{
+    font-size: 1.4rem;
+    margin-right: 0.63rem;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.barra_lateral .links_laterais .titulo_sessao{
+    font-size: 0.938rem;
+    font-weight: 600;
+    color: black;
+    margin: 1rem 0 0.5rem 0.5rem;
+}
+
+.barra_lateral .sessao_separada {
+    height: 1px;
+    margin: 0.625rem 0;
+    background-color: #a6a6a6;
+}
+
+main .mini_categoria{
+    padding: 0 1rem;
+    overflow-x: hidden;
+    width: 100%;
+}
+
 .navegacao .navegacao_centro .button-pesquisa{
     width: auto;
     padding: 0 1.25rem;
@@ -128,20 +208,25 @@
     white-space: nowrap;
 }
 
-main .mini_categoria{
-    padding: 0 1rem;
-    overflow-x: hidden;
-    width: 100%;
+.lista_categoria .button-categoria.active{
+    color: white;
+    background-color: black;
+}
+
+.lista_categoria .button-categoria:hover{
+    background: #d4d4d4;
 }
 
 .lista_video .espaco_video .thumbnail_video{
-    position: relative;
-}
-
-.lista_video .espaco_video .thumbnail_video{
+    position: relative; 
+    display: flex;
+    margin-top: 1.5rem;
     width: 100%;
-    border-radius: 0.5rem;
     aspect-ratio: 16 / 9;
+}
+
+.thumbnail_video img{
+    border-radius: 0.85rem;
 }
 
 .lista_video .espaco_video .duracao{
@@ -161,20 +246,43 @@ main .mini_categoria{
     border-radius: 50%;
 }
 
-.lista_video .espaco_video .titulo{
-    font-size: 1rem;
-    font-weight: 600;
-    color: black;
+.lista_video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 1rem;
+    padding: 1.25rem 0 4rem;
+   
+}
+
+.espaco_video {
+    max-width: 300px; /* Defina uma largura máxima para o vídeo */
+    margin: 0 auto; /* Centraliza o vídeo dentro do contêiner */
+    text-decoration: none;
 }
 
 .lista_video .espaco_video{
     text-decoration: none;
 }
 
+.espaco_video{
+    top: 100px;
+}
+
 .lista_video .espaco_video .info_video{
     display: flex;
     gap: 0.7rem;
     padding: 0.7rem 0.5rem;
+}
+
+.lista_video .espaco_video .titulo{
+    font-size: 1rem;
+    font-weight: 600;
+    color: black;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
 }
 
 .lista_video .espaco_video p{
@@ -185,6 +293,13 @@ main .mini_categoria{
 .lista_video .espaco_video .nome_canal{
     margin: 0.25rem 0 0 0.15rem;
 }
+
+.mini_categoria{
+    height: 50px;
+}
+
+
+
 
 
 
