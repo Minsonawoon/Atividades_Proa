@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+}
+
+img{
+    width: 120px;
+    height: 100px;
+    margin: 30px;
+}
+
+div{
+    position: absolute;
+    top: 180px;
+    left: 730px;
+    width: 400px;
+    height: 220px;
+    border: 5px double;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    visibility: hidden; /*ocultando as divs*/
+}
+
+#camada1{
+    color: #292626;
+    background-color: rgb(255, 255, 255);
+    border-color: #292626;
+}
+
+#camada2{
+    color: #060755;
+    background-color: rgb(255, 253, 121);
+    border-color: #060755;
+}
+
+#camada3{
+    color: #6b5926;
+    background-color: rgb(255, 176, 127);
+    border-color: #6b5926;
+}
+
+div img{
+    width: 8cap;
+    height: 60px;
+    float: left;
+    margin: 10px;
+}

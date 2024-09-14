@@ -1,0 +1,21 @@
+@font-face{
+    font-family:fonte1;
+    src: url(../fontes/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+}
+
+@font-face{
+    font-family: fonte2;
+    src: url(../fontes/New_Amsterdam/NewAmsterdam-Regular.ttf)
+}
+
+.teste1{
+    font-family:fonte1;
+    font-size: 20px;
+    color: rgb(69, 134, 255);
+}
+
+.teste2{
+    font-family: fonte2;
+    color:chocolate;
+    font-size: 30px;
+}
